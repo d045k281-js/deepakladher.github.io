@@ -1,0 +1,11 @@
+# Robots.txt for Deepak Kumar Portfolio
+# https://d045k281-js.github.io/deepakladher.github.io/
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://d045k281-js.github.io/deepakladher.github.io/sitemap.xml
+
+# Crawl-delay (optional, be nice to servers)
+Crawl-delay: 10
