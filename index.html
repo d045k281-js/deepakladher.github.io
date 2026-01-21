@@ -3,68 +3,483 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Deepak Kumar | Software Engineer</title>
+  
+  <!-- SEO Meta Tags -->
+  <title>Deepak Kumar | Full Stack Software Engineer & AWS Certified Developer</title>
+  <meta name="description" content="Deepak Kumar is a Full Stack Software Engineer specializing in Vue.js, Laravel, React, Python, and AWS. AWS Certified Developer with expertise in building scalable POS systems, payment integrations, and secure applications." />
+  <meta name="keywords" content="Deepak Kumar, Full Stack Developer, Software Engineer, Vue.js, Laravel, React, Python, AWS, AWS Certified Developer, Payment Integration, Stripe, Adyen, POS Systems, Kansas City Developer, Web Developer" />
+  <meta name="author" content="Deepak Kumar" />
+  <meta name="robots" content="index, follow" />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://deepakladher.github.io/" />
+  <meta property="og:title" content="Deepak Kumar | Full Stack Software Engineer & AWS Certified Developer" />
+  <meta property="og:description" content="Full Stack Software Engineer specializing in Vue.js, Laravel, React, Python, and AWS. Building scalable, secure applications from scratch." />
+  <meta property="og:image" content="https://deepakladher.github.io/assets/1f9541af-486e-4bb0-9b10-a482d1755dd9.JPG" />
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://deepakladher.github.io/" />
+  <meta property="twitter:title" content="Deepak Kumar | Full Stack Software Engineer" />
+  <meta property="twitter:description" content="Full Stack Software Engineer specializing in Vue.js, Laravel, React, Python, and AWS. AWS Certified Developer." />
+  <meta property="twitter:image" content="https://deepakladher.github.io/assets/1f9541af-486e-4bb0-9b10-a482d1755dd9.JPG" />
+  
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://deepakladher.github.io/" />
+  
+  <!-- Additional SEO -->
+  <meta name="geo.region" content="US-MO" />
+  <meta name="geo.placename" content="Kansas City" />
+  
   <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+  
+  <!-- Structured Data for SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Deepak Kumar",
+    "url": "https://deepakladher.github.io/",
+    "image": "https://deepakladher.github.io/assets/1f9541af-486e-4bb0-9b10-a482d1755dd9.JPG",
+    "jobTitle": "Full Stack Software Engineer",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "WIZniche"
+    },
+    "description": "AWS Certified Full Stack Developer specializing in Vue.js, Laravel, React, Python, and cloud infrastructure.",
+    "sameAs": [
+      "https://github.com/deepakladher",
+      "https://www.linkedin.com/in/deepak-kumar-5a5100220/"
+    ],
+    "knowsAbout": ["Full Stack Development", "Vue.js", "Laravel", "React", "Python", "AWS", "Payment Integration", "Application Security", "POS Systems"]
+  }
+  </script>
 </head>
 <body>
 
-  <header class="hero">
-    <h1>Deepak Kumar</h1>
-    <p>Full Stack Software Engineer</p>
-    <p>Vue • Laravel • React • AWS</p>
-    <div class="links">
-      <a href="mailto:deepakladher@gmail.com">Email</a>
-      <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
-      <a href="https://github.com/deepakladher" target="_blank">GitHub</a>
+  <!-- Animated background -->
+  <div class="bg-gradient"></div>
+  <div class="bg-grid"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">DK</a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact" class="nav-cta">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero" id="home">
+    <div class="hero-content">
+      <div class="hero-image">
+        <img src="assets/1f9541af-486e-4bb0-9b10-a482d1755dd9.JPG" alt="Deepak Kumar" />
+      </div>
+      <h1 class="hero-title">
+        Hi, I'm <span class="gradient-text">Deepak Kumar</span>
+      </h1>
+      <p class="hero-subtitle">Full Stack Software Engineer</p>
+      <div class="hero-badge">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/><path d="m9 12 2 2 4-4"/></svg>
+        AWS Certified Developer
+      </div>
+      <p class="hero-stack">
+        <span>Vue</span>
+        <span class="dot"></span>
+        <span>Laravel</span>
+        <span class="dot"></span>
+        <span>React</span>
+        <span class="dot"></span>
+        <span>Python</span>
+        <span class="dot"></span>
+        <span>AWS</span>
+      </p>
+      <div class="hero-links">
+        <a href="mailto:deepakladher@gmail.com" class="btn btn-primary">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+          Get in Touch
+        </a>
+        <a href="https://github.com/deepakladher" target="_blank" class="btn btn-secondary">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+          GitHub
+        </a>
+        <a href="https://www.linkedin.com" target="_blank" class="btn btn-secondary">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+          LinkedIn
+        </a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="mouse"></div>
+      <span>Scroll to explore</span>
     </div>
   </header>
 
-  <section>
-    <h2>About Me</h2>
-    <p>
-      Full Stack Software Engineer with experience building and scaling
-      production-grade POS and business management platforms.
-      I lead architecture, integrate payment systems, and work directly
-      with clients to deliver real-world solutions.
-    </p>
-  </section>
-
-  <section>
-    <h2>Skills</h2>
-    <ul class="skills">
-      <li>Vue.js / Nuxt</li>
-      <li>Laravel / PHP</li>
-      <li>React / React Native</li>
-      <li>AWS (EC2, S3, RDS, Lambda)</li>
-      <li>Docker & REST APIs</li>
-      <li>Payments (Stripe, Adyen, QuickBooks)</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>Experience</h2>
-
-    <div class="job">
-      <h3>WIZniche — Full Stack Developer</h3>
-      <span>2022 – Present</span>
-      <p>
-        Built and launched a scalable POS and business management system.
-        Act as technical lead, integrate third-party APIs, and manage AWS infrastructure.
-      </p>
+  <!-- About Section -->
+  <section class="section" id="about">
+    <div class="section-container">
+      <h2 class="section-title">
+        <span class="section-number">01.</span>
+        About Me
+      </h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p class="lead">
+            I'm a Full Stack Software Engineer passionate about building 
+            <span class="highlight">scalable systems</span> and <span class="highlight">secure applications</span> from scratch to production.
+          </p>
+          <p>
+            I've built complete business solutions including POS systems, CRM tools, Payment Gateways, 
+            and Admin Portals — all architected from the ground up with security best practices and 
+            scaled to handle real-world demands. My work spans from web platforms to embedded systems, 
+            including an automated assistive vehicle system using Raspberry Pi and Python.
+          </p>
+          <p>
+            Security is a core focus in everything I build — from implementing secure authentication 
+            and authorization, to protecting payment data with PCI compliance, to hardening cloud 
+            infrastructure. I thrive on solving complex problems while ensuring systems are both 
+            performant and secure.
+          </p>
+        </div>
+        <div class="about-stats">
+          <div class="stat-card">
+            <span class="stat-number">4+</span>
+            <span class="stat-label">Years Experience</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">10+</span>
+            <span class="stat-label">Projects Delivered</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">100%</span>
+            <span class="stat-label">Client Satisfaction</span>
+          </div>
+        </div>
+      </div>
     </div>
+  </section>
 
-    <div class="job">
-      <h3>Jackson County Courthouse — Application Developer</h3>
-      <span>2022</span>
-      <p>
-        Developed C#/.NET applications including an online auction system.
-      </p>
+  <!-- Skills Section -->
+  <section class="section section-alt" id="skills">
+    <div class="section-container">
+      <h2 class="section-title">
+        <span class="section-number">02.</span>
+        Skills & Technologies
+      </h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <div class="skill-icon frontend">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </div>
+          <h3>Frontend</h3>
+          <ul class="skill-list">
+            <li>Vue.js / Nuxt</li>
+            <li>React / React Native</li>
+            <li>TypeScript</li>
+            <li>Tailwind CSS</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <div class="skill-icon backend">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5V19A9 3 0 0 0 21 19V5"/><path d="M3 12A9 3 0 0 0 21 12"/></svg>
+          </div>
+          <h3>Backend</h3>
+          <ul class="skill-list">
+            <li>Laravel / PHP</li>
+            <li>Python</li>
+            <li>Node.js</li>
+            <li>REST APIs</li>
+            <li>MySQL / PostgreSQL</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <div class="skill-icon cloud">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/></svg>
+          </div>
+          <h3>Cloud & DevOps</h3>
+          <ul class="skill-list">
+            <li>AWS (EC2, S3, RDS, Lambda)</li>
+            <li>Docker</li>
+            <li>CI/CD Pipelines</li>
+            <li>Linux / Nginx</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <div class="skill-icon payments">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="14" x="2" y="5" rx="2"/><line x1="2" x2="22" y1="10" y2="10"/></svg>
+          </div>
+          <h3>Integrations</h3>
+          <ul class="skill-list">
+            <li>Stripe / Adyen</li>
+            <li>QuickBooks</li>
+            <li>Twilio / SendGrid</li>
+            <li>OAuth / SSO</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <div class="skill-icon security">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/><path d="m9 12 2 2 4-4"/></svg>
+          </div>
+          <h3>Security</h3>
+          <ul class="skill-list">
+            <li>Authentication / OAuth</li>
+            <li>PCI Compliance</li>
+            <li>Data Encryption</li>
+            <li>Secure API Design</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <div class="skill-icon embedded">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M7 7h.01"/><path d="M17 7h.01"/><path d="M7 17h.01"/><path d="M17 17h.01"/></svg>
+          </div>
+          <h3>Embedded & IoT</h3>
+          <ul class="skill-list">
+            <li>Raspberry Pi</li>
+            <li>OpenCV / Camera Systems</li>
+            <li>Hardware Integration</li>
+            <li>Sensor Networks</li>
+          </ul>
+        </div>
+      </div>
     </div>
   </section>
 
-  <footer>
-    <p>© 2026 Deepak Kumar</p>
+  <!-- Projects Section -->
+  <section class="section" id="projects">
+    <div class="section-container">
+      <h2 class="section-title">
+        <span class="section-number">03.</span>
+        Featured Projects
+      </h2>
+      <div class="projects-grid">
+        <div class="project-card featured">
+          <div class="project-header">
+            <div class="project-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/></svg>
+            </div>
+            <span class="project-badge">Featured</span>
+          </div>
+          <h3>Business Suite</h3>
+          <p>
+            Complete business management ecosystem built from scratch, featuring a POS system, 
+            CRM, Payment Gateway, and Admin Portal for subscription management. Architected 
+            to scale and handle high-volume transactions.
+          </p>
+          <div class="project-tags">
+            <span>Vue.js</span>
+            <span>Laravel</span>
+            <span>AWS</span>
+            <span>Stripe</span>
+            <span>Adyen</span>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-header">
+            <div class="project-icon raspberry">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
+            </div>
+          </div>
+          <h3>Assistive Automated Vehicle</h3>
+          <p>
+            Autonomous driving assistance system for individuals with Mild Cognitive Impairment (MCI). 
+            Built with Raspberry Pi, integrating camera monitoring, sensor networks, and real-time 
+            Python-based processing for safe navigation support.
+          </p>
+          <div class="project-tags">
+            <span>Python</span>
+            <span>Raspberry Pi</span>
+            <span>OpenCV</span>
+            <span>IoT</span>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-header">
+            <div class="project-icon payment">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="14" x="2" y="5" rx="2"/><line x1="2" x2="22" y1="10" y2="10"/></svg>
+            </div>
+          </div>
+          <h3>Payment Gateway Integration</h3>
+          <p>
+            Custom payment processing system integrating Stripe and Adyen for seamless 
+            multi-provider transactions. Handles subscriptions, refunds, and real-time 
+            payment status tracking with QuickBooks sync.
+          </p>
+          <div class="project-tags">
+            <span>Stripe API</span>
+            <span>Adyen</span>
+            <span>QuickBooks</span>
+            <span>Webhooks</span>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-header">
+            <div class="project-icon admin">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"/><circle cx="12" cy="12" r="3"/></svg>
+            </div>
+          </div>
+          <h3>Admin Portal & CRM</h3>
+          <p>
+            Centralized administration platform for managing subscriptions, user accounts, 
+            and customer relationships across multiple products. Features analytics dashboards 
+            and automated reporting.
+          </p>
+          <div class="project-tags">
+            <span>Vue.js</span>
+            <span>REST APIs</span>
+            <span>MySQL</span>
+            <span>Analytics</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section class="section section-alt" id="experience">
+    <div class="section-container">
+      <h2 class="section-title">
+        <span class="section-number">04.</span>
+        Experience
+      </h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="job-header">
+              <div>
+                <h3 class="job-title">Full Stack Developer</h3>
+                <p class="job-company">WIZniche</p>
+              </div>
+              <span class="job-period">2022 – Present</span>
+            </div>
+            <p class="job-description">
+              Built and launched an entire business ecosystem from scratch — POS, CRM, Payment Gateway, 
+              and Admin Portal for subscription management. Architected scalable solutions, integrated 
+              payment providers (Stripe, Adyen, QuickBooks), and manage AWS infrastructure. Work directly 
+              with clients to deliver production-ready features that handle real-world scale.
+            </p>
+            <div class="job-tags">
+              <span>Vue.js</span>
+              <span>Laravel</span>
+              <span>AWS</span>
+              <span>Stripe</span>
+              <span>Adyen</span>
+              <span>Docker</span>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="job-header">
+              <div>
+                <h3 class="job-title">Application Developer</h3>
+                <p class="job-company">Jackson County Courthouse</p>
+              </div>
+              <span class="job-period">2022</span>
+            </div>
+            <p class="job-description">
+              Developed robust C#/.NET applications for government operations, including 
+              an online auction system that streamlined public asset sales and improved 
+              transparency in county processes.
+            </p>
+            <div class="job-tags">
+              <span>C#</span>
+              <span>.NET</span>
+              <span>SQL Server</span>
+              <span>Azure</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section section-contact" id="contact">
+    <div class="section-container">
+      <h2 class="section-title center">
+        <span class="section-number">05.</span>
+        Let's Connect
+      </h2>
+      <p class="contact-text">
+        I'm always interested in hearing about new projects and opportunities. 
+        Whether you have a question or just want to say hi, feel free to reach out!
+      </p>
+      <a href="mailto:deepakladher@gmail.com" class="btn btn-primary btn-large">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+        Say Hello
+      </a>
+      <div class="social-links">
+        <a href="https://github.com/deepakladher" target="_blank" aria-label="GitHub">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+        </a>
+        <a href="https://www.linkedin.com" target="_blank" aria-label="LinkedIn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+        </a>
+        <a href="mailto:deepakladher@gmail.com" aria-label="Email">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>Designed & Built by <span class="gradient-text">Deepak Kumar</span></p>
+    <p class="footer-copy">© 2026 All rights reserved.</p>
   </footer>
+
+  <script>
+    // Smooth scroll for navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+
+    // Navbar background on scroll
+    const navbar = document.querySelector('.navbar');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 50) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+    });
+
+    // Animate elements on scroll
+    const observerOptions = {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('animate-in');
+        }
+      });
+    }, observerOptions);
+
+    document.querySelectorAll('.section-container, .timeline-item, .skill-category, .stat-card').forEach(el => {
+      observer.observe(el);
+    });
+  </script>
 
 </body>
 </html>
